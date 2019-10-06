@@ -5,6 +5,7 @@ body {
 
 .sasha {
   transform: rotate(15deg);
+  animation: 20s moving ease infinite;
 }
 
 .tesla-container {
@@ -382,10 +383,10 @@ body {
 
 @keyframes moving {
   0% {
-    transform: rotate(-40deg) translate(0px, 0px);
+    transform: rotate(20deg) translate(0px, 0px);
   }
   50% {
-    transform: rotate(-10deg) translate(-820px, 200px);
+    transform: rotate(-10deg) translate(320px, -400px);
   }
   100% {
     transform: rotate(0deg) translate(0px, 0px);
